@@ -31,7 +31,7 @@ CREATE TABLE genre_anime
 
 CREATE TABLE user_rating
 (
-	id  INTEGER        NOT NULL ,
+  user_rating_id  INTEGER        NOT NULL ,
   anime_id             INTEGER        NOT NULL ,
   user_id       INTEGER        NOT NULL ,
   user_rating          INTEGER        NOT NULL 
